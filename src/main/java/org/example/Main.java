@@ -20,5 +20,8 @@ public class Main {
         Range<Integer> intersection = range1.intersection(range2);
         System.out.println("Intersection of range1 and range2 " + intersection);
 
+        Range<Integer> span = range1.span(range2);
+        System.out.println("Span of range1 and range2: " + span);
+
     }
 }
