@@ -1,4 +1,4 @@
-package org.example;
+package Task1;
 
 import com.google.common.collect.Range;
 
@@ -14,8 +14,8 @@ public class Main {
 
         System.out.println("Enter TEST VALUE: ");
         int testValue = Integer.parseInt(sc.nextLine());
-        System.out.println("Does range1 contain "+ range1 + "?" + range1.contains(testValue));
-        System.out.println("Does range2 contain "+ range2 + "?" + range2.contains(testValue));
+        System.out.println("Does range1 contain "+ testValue + "?" + range1.contains(testValue));
+        System.out.println("Does range2 contain "+ testValue + "?" + range2.contains(testValue));
 
         Range<Integer> intersection = range1.intersection(range2);
         System.out.println("Intersection of range1 and range2 " + intersection);
